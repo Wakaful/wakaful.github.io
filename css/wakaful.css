@@ -1,0 +1,97 @@
+/*
+
+RESETS
+
+*/
+
+body {
+    padding-top: 60px;
+}
+.navbar.fixed-top {
+    border-bottom: 5px solid #333;
+    line-height: 40px;
+}
+.navbar.fixed-top .navbar-nav {
+    text-align: center;
+}
+.navbar.fixed-top .nav-item .btn {
+    margin: 0;
+}
+
+/*
+
+SECTIONS
+
+*/
+
+.section {
+    display: block;
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+}
+#about.section span {
+    color: transparent;
+    padding: 0 3px;
+}
+.section.dark {
+    background: #4F7F46;
+    color: #FFF;
+}
+.section.dark h4 {
+    color: #FFFF73;
+}
+.section.dark ul a {
+    color: #CCC;
+}
+.section.dark ul a:hover {
+    color: #FFFF73;
+}
+.section.light .card,
+.section.light .list-group .list-group-item,
+.section.dark .card,
+.section.dark .list-group .list-group-item {
+    background: transparent;
+    border-color: transparent;
+}
+.section.light {
+    background: #ECECFB;
+    border-top: 5px solid #333;
+    border-bottom: 5px solid #333;
+    color: #333;
+}
+.section.light h4 {
+    color: #4F7F46;
+}
+
+/*
+
+ICONS
+
+*/
+
+.card-text i.fa {
+    font-size: 100px;
+    background: #FFF;
+    border: 1px solid #AAA;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    line-height: 200px;
+    margin: 30px 0;
+    opacity: 0.85;
+}
+.section.dark .card-text i.fa {
+    background: #333;
+}
+
+/*
+
+RESPONSIVE
+
+*/
+@media (min-width: 992px) {
+    .navbar.fixed-top .nav-item .btn {
+        margin: 10px 0 0 10px;
+    }
+}
