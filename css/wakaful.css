@@ -64,6 +64,7 @@ SECTIONS
     color: #4F7F46;
 }
 
+
 /*
 
 ICONS
@@ -85,13 +86,22 @@ ICONS
     background: #333;
 }
 
+.card.social i.fa {
+    font-size: 50px;
+    padding: 15px;
+    color: #FFFF73;
+}
+.card.social a:hover i.fa {
+    color: #333;
+}
+
 /*
 
 RESPONSIVE
 
 */
-@media (min-width: 992px) {
-    .navbar.fixed-top .nav-item .btn {
+@media screen and (min-width: 992px) { 
+    html .navbar.fixed-top .nav-item .btn {
         margin: 10px 0 0 10px;
     }
 }
