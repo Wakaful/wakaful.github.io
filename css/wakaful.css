@@ -110,6 +110,29 @@ ICONS
 
 /*
 
+BLOG
+
+*/
+.row.article,
+.row.preview {
+    text-align: left;
+}
+hr.preview-divider {
+    margin: 45px 0;
+}
+.social.share {
+    margin-top: 60px;
+}
+.social.share i {
+    font-size: 32px;
+    color: #4F7F46;
+}
+.social.share i:hover {
+    color: #333;
+}
+
+/*
+
 RESPONSIVE
 
 */
