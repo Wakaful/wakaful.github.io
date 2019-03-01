@@ -122,12 +122,35 @@ hr.preview-divider {
 }
 .social.share {
     margin-top: 60px;
+    text-align: center;
 }
 .social.share i {
     font-size: 32px;
     color: #4F7F46;
 }
 .social.share i:hover {
+    color: #333;
+}
+
+/*
+
+SIDEBAR
+
+*/
+.sidebar .list-group {
+    margin-top: -15px;
+}
+.sidebar .list-group h4 {
+    color: #333;
+}
+.preview a,
+.article a,
+.sidebar .list-group a {
+    color: #4F7F46;
+}
+.preview a:hover,
+.article a:hover,
+.sidebar .list-group a:hover {
     color: #333;
 }
 
