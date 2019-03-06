@@ -159,6 +159,16 @@ SIDEBAR
 RESPONSIVE
 
 */
+@media screen and (max-width: 991px) { 
+    .preview .col-md-6 {
+        text-align: center;
+    }
+    .sidebar,
+    .preview .col-md-6 h4 {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
 @media screen and (min-width: 992px) { 
     html .navbar.fixed-top .nav-item .btn {
         margin: 10px 0 0 10px;
